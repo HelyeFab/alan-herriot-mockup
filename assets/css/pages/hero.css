@@ -1,0 +1,7 @@
+.hero {
+  background-image: linear-gradient(to right bottom, rgba(75, 77, 74, 0.329), rgba(34, 36, 35, 0.082)), url("/../assets/img/dummy_landscape.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=hero.css.map */

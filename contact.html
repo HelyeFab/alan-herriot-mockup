@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/pages/hero.css" />
+    <title>Mock up | About</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Alan Beattie Herriot</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+<!-- First Drop Down -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Name to be defined
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                > 
+                <li><a class="dropdown-item" href="./paintings.html">Paintings</a></li>
+                  <li><a class="dropdown-item" href="./paintings.html">Drawings</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./paintings.html">Horse Portraits</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- Second Drop Down -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sculptures
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                > 
+                <li><a class="dropdown-item" href="./sculpture.html">St Michael</a></li>
+                  <li><a class="dropdown-item" href="#">Wojetk Polish Soldier Bear</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Free Masons</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Ancient Mariner</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Fisherman's Memorial</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Robert Louis Stevenson</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Military</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">The Elgin Drummer</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Historical</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Sports</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">National Memorial Arboretum</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./sculpture.html">Various Projects</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./print.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Page content-->
+    <section class="py-5 bg-light">
+      <div class="container px-5">
+        <!-- Contact form-->
+        <div class="bg-light py-5 px-4 px-md-5 mb-5">
+          <div class="text-center mb-5">
+            <div
+              class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+            >
+              <i class="bi bi-envelope"></i>
+            </div>
+            <h1 class="fw-bolder">Get in touch</h1>
+            <p class="lead fw-normal text-muted mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing.
+            </p>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <!-- Name input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name..."
+                    data-sb-validations="required"
+                  />
+                  <label for="name">Full name</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="name:required"
+                  >
+                    A name is required.
+                  </div>
+                </div>
+                <!-- Email address input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="email"
+                    type="email"
+                    placeholder="name@example.com"
+                    data-sb-validations="required,email"
+                  />
+                  <label for="email">Email address</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="email:required"
+                  >
+                    An email is required.
+                  </div>
+                  <div class="invalid-feedback" data-sb-feedback="email:email">
+                    Email is not valid.
+                  </div>
+                </div>
+                <!-- Phone number input-->
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="phone"
+                    type="tel"
+                    placeholder="(123) 456-7890"
+                    data-sb-validations="required"
+                  />
+                  <label for="phone">Phone number</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="phone:required"
+                  >
+                    A phone number is required.
+                  </div>
+                </div>
+                 <!-- Phone number input-->
+                 <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="print"
+                    type="text"
+                    placeholder="Print's name"
+                    data-sb-validations="required"
+                  />
+                  <label for="phone">Print's name</label>
+                </div>
+                <!-- Message input-->
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    type="text"
+                    placeholder="Enter your message here..."
+                    style="height: 10rem"
+                    data-sb-validations="required"
+                  ></textarea>
+                  <label for="message">Message</label>
+                  <div
+                    class="invalid-feedback"
+                    data-sb-feedback="message:required"
+                  >
+                    A message is required.
+                  </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    To activate this form, sign up at
+                    <br />
+                    <a href="https://startbootstrap.com/solution/contact-forms"
+                      >https://startbootstrap.com/solution/contact-forms</a
+                    >
+                  </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">
+                    Error sending message!
+                  </div>
+                </div>
+                <!-- Submit Button-->
+                <div class="d-grid">
+                  <button
+                    class="btn btn-primary btn-lg disabled"
+                    id="submitButton"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Contact cards-->
+      </div>
+    </section>
+    <div class="container">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-between
+          align-items-center
+          py-3
+          my-4
+          border-top
+        "
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="text-muted">&copy; 2021 Alan Beattie Herriot</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter" /></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram" /></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook" /></svg
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
